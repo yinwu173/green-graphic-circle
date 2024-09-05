@@ -1,5 +1,5 @@
 const inquirer = require('inquirer');
-
+const fs = require('fs');
 
 
 // prompt questions for user to input: text, text color, shape, and shape color
@@ -30,3 +30,23 @@ const questions = [
         name: "shape-color",
     }
 ];
+
+// create a function to write SVG file
+function writeToFile(filename, data) {
+    fs.writeFile(filename, data, (err) => 
+    err ? console.error(err) : console.log("Success! Generated logo.svg.")
+    )
+};
+
+
+// create a function to initialize app
+function init() {
+    inquirer.prompt(questions).then((response) => {
+        writeToFile('logo.svg')
+    });
+};
+
+
+
+// function call to initialize app
+init();
