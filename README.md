@@ -19,7 +19,7 @@
 
 ## Link to the Walkthrough Video
 
-* 
+* https://watch.screencastify.com/v/OCQ6YTslDgRhnhWSMDtS
 
 ### Hints
 
