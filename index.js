@@ -1,5 +1,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+// import classes from the shapes.js folder
+const {Circle, Triangle, Square} = require('./shapes.js');
 
 
 // prompt questions for user to input: text, text color, shape, and shape color
