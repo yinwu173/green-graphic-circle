@@ -2,7 +2,7 @@
 
 ## About the Project
 
-* AS a freelance web developer, I WANT to generate a simple logo for my projects, SO THAT I don't have to pay a graphic designer.
+* This project allows us to become freelance web developers, enabling us to generate a simple log for any project they may come across. It enables us to become our own graphic designers. 
 
 ## Acceptance Criteria
 
